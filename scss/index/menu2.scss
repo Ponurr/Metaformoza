@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "ponur";
+    src: url("../../fonts/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+      font-weight: normal;
+    font-style: normal;
+  }
+
+ .menu2{
+
+    .menu2-container{
+        width: 100%;
+        height: 4vw;
+        display: flex;
+        border: 0.1vw solid rgb(255, 255, 255);
+        align-items: center;
+        border-top: none;
+        justify-content: space-around;
+        text-transform: uppercase;
+     
+        
+        
+
+        .menu2__container-contact{
+            cursor: pointer;
+
+            span{
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 650;
+                z-index: 20;
+
+            }
+
+            &::before{
+                content: '';
+                margin-left: -0.7vw;
+                visibility: hidden;
+                border-radius: 0.5vw;
+                width: 5vw;
+                z-index: 1;
+                height: 1.5vw;
+                margin-top: -0.2vw;
+                background-color: rgba(255, 255, 255, 0.24);
+                position: absolute;
+                opacity: 1vw;
+            }
+
+            &:hover::before{
+                visibility: visible;
+                
+                
+
+                
+            }
+            &:hover{
+                transform: scale(1.1);
+            }
+
+
+        }
+        .menu2__container-price{
+            cursor: pointer;
+
+            span{
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 650;
+                
+            }
+            &::before{
+                content: '';
+                margin-left: -0.7vw;
+                visibility: hidden;
+                border-radius: 0.5vw;
+                width: 4.4vw;
+                z-index: 1;
+                height: 1.5vw;
+                margin-top: -0.2vw;
+                background-color: rgba(255, 255, 255, 0.24);
+                position: absolute;
+                opacity: 1vw;
+            }
+
+            &:hover::before{
+                visibility: visible;
+                
+                
+
+                
+            }
+            &:hover{
+                transform: scale(1.1);
+            }
+
+            
+        }
+
+        .menu2__container-about_us{
+            cursor: pointer;
+            span{
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 650;
+            }
+
+            &::before{
+                content: '';
+                margin-left: -0.7vw;
+                visibility: hidden;
+                border-radius: 0.5vw;
+                width: 4vw;
+                z-index: 1;
+                height: 1.5vw;
+                margin-top: -0.2vw;
+                background-color: rgba(255, 255, 255, 0.24);
+                position: absolute;
+                opacity: 1vw;
+            }
+
+            &:hover::before{
+                visibility: visible;
+                
+                
+
+                
+            }
+            &:hover{
+                transform: scale(1.1);
+            }
+
+            
+        }
+
+        .menu2__container-localization{
+            cursor: pointer;
+            span{
+
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 650;
+                
+            }
+
+            &::before{
+                content: '';
+                margin-left: -0.7vw;
+                visibility: hidden;
+                border-radius: 0.5vw;
+                width: 7vw;
+                z-index: 1;
+                height: 1.5vw;
+                margin-top: -0.2vw;
+                background-color: rgba(255, 255, 255, 0.24);
+                position: absolute;
+                opacity: 1vw;
+            }
+
+            &:hover::before{
+                visibility: visible;
+                
+                
+
+                
+            }
+            &:hover{
+                transform: scale(1.1);
+            }
+
+            
+        }
+
+        .menu2__container-statue{
+            cursor: pointer;
+            span{
+
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 650;
+                
+            }
+
+            &::before{
+                content: '';
+                margin-left: -0.7vw;
+                visibility: hidden;
+                border-radius: 0.5vw;
+                width: 6vw;
+                z-index: 1;
+                height: 1.5vw;
+                margin-top: -0.2vw;
+                background-color: rgba(255, 255, 255, 0.24);
+                position: absolute;
+                opacity: 1vw;
+            }
+
+            &:hover::before{
+                visibility: visible;
+                
+                
+
+                
+            }
+            &:hover{
+                transform: scale(1.1);
+            }
+
+            
+        }
+
+    }
+
+
+
+
+  }

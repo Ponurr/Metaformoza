@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../../fonts/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.menu2 .menu2-container {
+  width: 100%;
+  height: 4vw;
+  display: flex;
+  border: 0.1vw solid rgb(255, 255, 255);
+  align-items: center;
+  border-top: none;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+.menu2 .menu2-container .menu2__container-contact {
+  cursor: pointer;
+}
+.menu2 .menu2-container .menu2__container-contact span {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 650;
+  z-index: 20;
+}
+.menu2 .menu2-container .menu2__container-contact::before {
+  content: "";
+  margin-left: -0.7vw;
+  visibility: hidden;
+  border-radius: 0.5vw;
+  width: 5vw;
+  z-index: 1;
+  height: 1.5vw;
+  margin-top: -0.2vw;
+  background-color: rgba(255, 255, 255, 0.24);
+  position: absolute;
+  opacity: 1vw;
+}
+.menu2 .menu2-container .menu2__container-contact:hover::before {
+  visibility: visible;
+}
+.menu2 .menu2-container .menu2__container-contact:hover {
+  transform: scale(1.1);
+}
+.menu2 .menu2-container .menu2__container-price {
+  cursor: pointer;
+}
+.menu2 .menu2-container .menu2__container-price span {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 650;
+}
+.menu2 .menu2-container .menu2__container-price::before {
+  content: "";
+  margin-left: -0.7vw;
+  visibility: hidden;
+  border-radius: 0.5vw;
+  width: 4.4vw;
+  z-index: 1;
+  height: 1.5vw;
+  margin-top: -0.2vw;
+  background-color: rgba(255, 255, 255, 0.24);
+  position: absolute;
+  opacity: 1vw;
+}
+.menu2 .menu2-container .menu2__container-price:hover::before {
+  visibility: visible;
+}
+.menu2 .menu2-container .menu2__container-price:hover {
+  transform: scale(1.1);
+}
+.menu2 .menu2-container .menu2__container-about_us {
+  cursor: pointer;
+}
+.menu2 .menu2-container .menu2__container-about_us span {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 650;
+}
+.menu2 .menu2-container .menu2__container-about_us::before {
+  content: "";
+  margin-left: -0.7vw;
+  visibility: hidden;
+  border-radius: 0.5vw;
+  width: 4vw;
+  z-index: 1;
+  height: 1.5vw;
+  margin-top: -0.2vw;
+  background-color: rgba(255, 255, 255, 0.24);
+  position: absolute;
+  opacity: 1vw;
+}
+.menu2 .menu2-container .menu2__container-about_us:hover::before {
+  visibility: visible;
+}
+.menu2 .menu2-container .menu2__container-about_us:hover {
+  transform: scale(1.1);
+}
+.menu2 .menu2-container .menu2__container-localization {
+  cursor: pointer;
+}
+.menu2 .menu2-container .menu2__container-localization span {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 650;
+}
+.menu2 .menu2-container .menu2__container-localization::before {
+  content: "";
+  margin-left: -0.7vw;
+  visibility: hidden;
+  border-radius: 0.5vw;
+  width: 7vw;
+  z-index: 1;
+  height: 1.5vw;
+  margin-top: -0.2vw;
+  background-color: rgba(255, 255, 255, 0.24);
+  position: absolute;
+  opacity: 1vw;
+}
+.menu2 .menu2-container .menu2__container-localization:hover::before {
+  visibility: visible;
+}
+.menu2 .menu2-container .menu2__container-localization:hover {
+  transform: scale(1.1);
+}
+.menu2 .menu2-container .menu2__container-statue {
+  cursor: pointer;
+}
+.menu2 .menu2-container .menu2__container-statue span {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 650;
+}
+.menu2 .menu2-container .menu2__container-statue::before {
+  content: "";
+  margin-left: -0.7vw;
+  visibility: hidden;
+  border-radius: 0.5vw;
+  width: 6vw;
+  z-index: 1;
+  height: 1.5vw;
+  margin-top: -0.2vw;
+  background-color: rgba(255, 255, 255, 0.24);
+  position: absolute;
+  opacity: 1vw;
+}
+.menu2 .menu2-container .menu2__container-statue:hover::before {
+  visibility: visible;
+}
+.menu2 .menu2-container .menu2__container-statue:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=menu2.css.map */

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 40vw;
+  width: 100%;
+  background-color: rgb(135, 196, 236);
+  background-position: center;
+}
+
+/*# sourceMappingURL=index.css.map */
