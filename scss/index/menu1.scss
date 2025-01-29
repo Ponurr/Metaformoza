@@ -23,10 +23,12 @@
     .menu1__container-logo{
 
         height: 8vw;
-        margin-left: 45vw;
+        margin-left: 47vw;
       
         display: flex;
         align-items: center;
+        width: 25%;
+        height: auto;
         
 
         img{
@@ -50,11 +52,11 @@
 
         .menu1__container__informations-city{
             margin-left: 2vw;
-            font-size: 1.2vw;
+            font-size: 1.1vw;
             width: 5vw;
             display: flex;
             position: relative;
-            left: -0.2vw;
+            left: -0.05vw;
 
             span{
                 font-family: "ponur", sans-serif;
@@ -62,6 +64,7 @@
                 font-size: 1.1vw;
                 font-weight: 650;
                 color: white;
+                text-shadow: 0.04vw 0.1vw 0.1vw black;
 
 
             }
@@ -74,7 +77,7 @@
             left: 0.36vw;
             margin-left: 2vw;
             width: 6vw;
-            font-size: 0.7vw;
+            font-size: 0.65vw;
 
             span{
                 font-family: sans-serif;
@@ -82,6 +85,7 @@
                 letter-spacing: 0.02vw;
                 color: white;
                 font-weight: 650;
+                text-shadow: 0.05vw 0.05vw 0.1vw black;
 
 
             }
@@ -94,12 +98,14 @@
             left: -0.05vw;
             margin-left: 2vw;
             width: 5vw;
+            font-size: 0.65vw;
             span{
                 font-family:  sans-serif;
                 font-size: 0.65vw;
                 letter-spacing: 0.02vw;
                 color: white;
                 font-weight: 650;
+                text-shadow: 0.05vw 0.05vw 0.1vw black;
 
 
             }

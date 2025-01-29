@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "ponur";
+    src: url("../../fonts/Inconsolata-VariableFont_wdth.ttf") format("truetype");
+      font-weight: normal;
+    font-style: normal;
+  }
+
+.header_title{
+    position: relative;
+    left: 40vw;
+    top: 5vw;
+    z-index: 10;
+    
+
+
+
+    .header_title-container{
+        width: 20vw;
+        height: 10vw;
+        background-color: rgba(0, 0, 0, 0.068);
+        display: flex;
+        border-radius: 0.5vw;
+        align-items: center;
+        justify-content: center;
+        z-index: 10;
+
+        &:hover .header_title__container-text{
+            transform: scale(1.1);
+            
+        }
+
+        
+
+
+        .header_title__container-text{
+            align-items: center;
+            width: 15vw;
+
+            h1{
+                text-align: center;
+                font-family: "ponur", sans-serif;
+                letter-spacing: 0.1vw;
+
+            }
+
+            span{
+                text-align: center;
+                font-family: "ponur", sans-serif;
+                letter-spacing: 0.05vw;
+
+            }
+           
+
+
+        }
+
+
+
+    }
+}

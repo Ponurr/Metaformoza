@@ -14,9 +14,11 @@
 }
 .menu1 .menu1-container .menu1__container-logo {
   height: 8vw;
-  margin-left: 45vw;
+  margin-left: 47vw;
   display: flex;
   align-items: center;
+  width: 25%;
+  height: auto;
 }
 .menu1 .menu1-container .menu1__container-logo img {
   width: 25%;
@@ -32,11 +34,11 @@
 }
 .menu1 .menu1-container .menu1__container-informations .menu1__container__informations-city {
   margin-left: 2vw;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
   width: 5vw;
   display: flex;
   position: relative;
-  left: -0.2vw;
+  left: -0.05vw;
 }
 .menu1 .menu1-container .menu1__container-informations .menu1__container__informations-city span {
   font-family: "ponur", sans-serif;
@@ -44,13 +46,14 @@
   font-size: 1.1vw;
   font-weight: 650;
   color: white;
+  text-shadow: 0.04vw 0.1vw 0.1vw black;
 }
 .menu1 .menu1-container .menu1__container-informations .menu1__container__informations-adres {
   position: relative;
   left: 0.36vw;
   margin-left: 2vw;
   width: 6vw;
-  font-size: 0.7vw;
+  font-size: 0.65vw;
 }
 .menu1 .menu1-container .menu1__container-informations .menu1__container__informations-adres span {
   font-family: sans-serif;
@@ -58,12 +61,14 @@
   letter-spacing: 0.02vw;
   color: white;
   font-weight: 650;
+  text-shadow: 0.05vw 0.05vw 0.1vw black;
 }
 .menu1 .menu1-container .menu1__container-informations .menu1__container__informations-phone {
   position: relative;
   left: -0.05vw;
   margin-left: 2vw;
   width: 5vw;
+  font-size: 0.65vw;
 }
 .menu1 .menu1-container .menu1__container-informations .menu1__container__informations-phone span {
   font-family: sans-serif;
@@ -71,6 +76,7 @@
   letter-spacing: 0.02vw;
   color: white;
   font-weight: 650;
+  text-shadow: 0.05vw 0.05vw 0.1vw black;
 }
 
 /*# sourceMappingURL=menu1.css.map */
