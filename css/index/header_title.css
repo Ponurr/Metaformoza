@@ -13,7 +13,7 @@
 .header_title .header_title-container {
   width: 20vw;
   height: 10vw;
-  background-color: rgba(0, 0, 0, 0.068);
+  background-color: rgba(223, 223, 223, 0.336);
   display: flex;
   border-radius: 0.5vw;
   align-items: center;
@@ -28,11 +28,13 @@
   width: 15vw;
 }
 .header_title .header_title-container .header_title__container-text h1 {
+  color: white;
   text-align: center;
   font-family: "ponur", sans-serif;
   letter-spacing: 0.1vw;
 }
 .header_title .header_title-container .header_title__container-text span {
+  color: white;
   text-align: center;
   font-family: "ponur", sans-serif;
   letter-spacing: 0.05vw;

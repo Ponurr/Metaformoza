@@ -1,0 +1,51 @@
+.header_arows{
+    position: absolute;
+
+    .header_arows-1{
+        position: absolute;
+        top: -15vw;
+        left: 35vw;
+        rotate: -45deg;
+
+
+        i{  
+            color: #bfe7f8;
+            font-size: 5vw;
+            
+        }
+
+    }
+    .header_arows-2{
+         position: absolute;
+         top: -15vw;
+        left: 60vw;
+        rotate: -135deg;
+
+
+        i{  
+            color: #bfe7f8;
+            font-size: 5vw;
+            
+        }
+
+    }
+    .header_arows-3{
+        position: absolute;
+        top: -14vw;
+        left: 47.5vw;
+        rotate: 270deg;
+
+
+        i{  
+            color: #bfe7f8;
+            font-size: 5vw;
+            
+        }
+
+    }
+    .header_arows-4{
+        position: absolute;
+
+    }
+
+}

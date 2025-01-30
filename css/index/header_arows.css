@@ -1,0 +1,38 @@
+.header_arows {
+  position: absolute;
+}
+.header_arows .header_arows-1 {
+  position: absolute;
+  top: -15vw;
+  left: 35vw;
+  rotate: -45deg;
+}
+.header_arows .header_arows-1 i {
+  color: #bfe7f8;
+  font-size: 5vw;
+}
+.header_arows .header_arows-2 {
+  position: absolute;
+  top: -15vw;
+  left: 60vw;
+  rotate: -135deg;
+}
+.header_arows .header_arows-2 i {
+  color: #bfe7f8;
+  font-size: 5vw;
+}
+.header_arows .header_arows-3 {
+  position: absolute;
+  top: -14vw;
+  left: 47.5vw;
+  rotate: 270deg;
+}
+.header_arows .header_arows-3 i {
+  color: #bfe7f8;
+  font-size: 5vw;
+}
+.header_arows .header_arows-4 {
+  position: absolute;
+}
+
+/*# sourceMappingURL=header_arows.css.map */

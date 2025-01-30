@@ -11,4 +11,8 @@ header {
   background-position: center;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /*# sourceMappingURL=index.css.map */

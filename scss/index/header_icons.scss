@@ -1,4 +1,30 @@
 .header_icons{
+
+    height: 20vw;
+    
+
+
+    @keyframes slideInFromLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    
+    @keyframes slideInFromRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
     
 
 
@@ -7,6 +33,7 @@
         position: relative;
         bottom: -1vw;
         left: 4vw;
+        animation: slideInFromLeft 0.5s ease-out;
 
         i{
             font-size: 10vw;
@@ -23,6 +50,7 @@
         position: relative;
         bottom: 15vw;
         left: 85vw;
+        animation: slideInFromRight 1s ease-out;
 
         i{
             font-size: 10vw;
@@ -39,6 +67,7 @@
         position: relative;
         bottom: 15vw;
         left: 54vw;
+        animation: slideInFromRight 1.5s ease-out;
 
         i{
             font-size: 10vw;
@@ -51,6 +80,7 @@
     }
 
     .header_icons-4{
+        animation: slideInFromLeft 1.5s ease-out;
         display: flex;
         position: relative;
         bottom: 40vw;
@@ -67,6 +97,7 @@
         
     }
     .header_icons-5{
+        animation: slideInFromRight 0.5s ease-out;
         display: flex;
         position: relative;
         bottom: 28vw;
@@ -84,6 +115,7 @@
     }
 
     .header_icons-6{
+        animation: slideInFromLeft 0.7s ease-out;
         display: flex;
         position: relative;
         bottom: 37vw;
@@ -99,6 +131,7 @@
         }
         
     }
+    
 
 
 }
